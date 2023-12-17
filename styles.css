@@ -217,9 +217,103 @@ nav {
     font-size: 24px;
     height: 75px;
     line-height: 75px;
+    cursor: pointer;
 }
 
 .plan .recommended {
     background-color: #F45C57;
 }
 
+/* buscar domínio */
+
+.searchdomanin-container {
+    background-color: #34454E;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.searchdomanin-container h2 {
+    color: #FFF;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.searchdomanin-container p {
+    color: #D5D5D5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.searchdomanin-container input {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.searchdomanin-container input[type=text] {
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.searchdomanin-container input[type=submit] {
+    background-color: #2CC76A;
+    padding: 15px 30px;
+    color: #FFF;
+    font-size: 24px;
+}
+
+/* contato */
+
+.contact-container {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.contact-container input, .contact-container textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-container textarea {
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 468px;
+    height: 150px;
+}
+
+.contact-container input[type=submit] {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2CC76A;
+    color: #FFF;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
